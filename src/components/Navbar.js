@@ -15,8 +15,8 @@ function Navbar() {
       }}>
       <div>My Website</div>
       <div>
-        <Link href="/">Home </Link>
-        <Link href="/about">About </Link>
+        <Link href="/" preload={false}>Home </Link>
+        <Link href="/about" preload={false}>About </Link>
         <Link href="/contacts">Contacts </Link>
         <button onClick={toggleTheme}>Set {newThemeName} theme</button>
       </div>
